@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+h3{
+    text-align: center;
+}
+#textarea{
+    border: hidden;
+    padding: 5px;
+    width: 90%;
+    height: 50px;
+}
+.tags{
+    margin-top: 10px;
+}
+.tag{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 20%;
+}
+.tag.highlight{
+    background-color: grey;
+}
